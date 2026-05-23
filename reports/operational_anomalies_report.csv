@@ -1,0 +1,20 @@
+date,area,projected_workers,actual_workers,attendance_rate,kg_harvested,worker_gap,attendance_alert,critical_gap
+2026-05-20,Ventura,113,104,92.0,5441,9,True,False
+2026-05-20,Rocío,109,98,89.9,8165,11,True,True
+2026-05-20,Field Operations,24,22,91.7,0,2,True,False
+2026-05-20,Quality Control,18,16,88.9,0,2,True,False
+2026-05-21,Biloxi,125,116,92.8,7176,9,True,False
+2026-05-21,Rocío,147,135,91.8,6063,12,True,True
+2026-05-21,Packing Plant,42,39,92.9,0,3,True,False
+2026-05-21,Field Operations,55,50,90.9,0,5,True,False
+2026-05-22,Ventura,92,85,92.4,6542,7,True,False
+2026-05-22,Field Operations,55,50,90.9,0,5,True,False
+2026-05-23,Packing Plant,18,14,77.8,0,4,True,False
+2026-05-23,Quality Control,25,23,92.0,0,2,True,False
+2026-05-25,Field Operations,48,45,93.8,0,3,True,False
+2026-05-25,Quality Control,40,35,87.5,0,5,True,False
+2026-05-26,Biloxi,125,114,91.2,4642,11,True,True
+2026-05-26,Emerald,111,102,91.9,8829,9,True,False
+2026-05-26,Packing Plant,32,30,93.8,0,2,True,False
+2026-05-20,Biloxi,152,151,99.3,4594,1,False,False
+2026-05-21,Emerald,128,127,99.2,4839,1,False,False

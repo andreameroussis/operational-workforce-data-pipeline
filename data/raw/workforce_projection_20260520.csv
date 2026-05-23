@@ -1,6 +1,8 @@
 date,area,projected_workers,actual_workers,attendance_rate,kg_harvested
-2026-05-20,Blueberry North,120,118,98.3,5420
-2026-05-20,Blueberry South,95,91,95.8,4310
-2026-05-20,Packing Plant,80,76,95.0,0
-2026-05-20,Field Operations,60,58,96.7,0
-2026-05-20,Quality Control,25,24,96.0,0
+2026-05-20,Biloxi,152,151,99.3,4594
+2026-05-20,Ventura,113,104,92.0,5441
+2026-05-20,Rocío,109,98,89.9,8165
+2026-05-20,Emerald,99,94,94.9,8694
+2026-05-20,Packing Plant,38,38,100.0,0
+2026-05-20,Field Operations,24,22,91.7,0
+2026-05-20,Quality Control,18,16,88.9,0
