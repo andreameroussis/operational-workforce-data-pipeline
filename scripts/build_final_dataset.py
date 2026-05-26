@@ -16,6 +16,12 @@ df["kg_per_worker"] = (
     .fillna(0)
 )
 
+# Create attendance rate
+df["attendance_rate"] = (
+    df["actual_workers"] /
+    df["projected_workers"]
+).round(3)
+
 # Create operational status
 df["operational_status"] = "Normal"
 
