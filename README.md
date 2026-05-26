@@ -1,132 +1,170 @@
 # Operational Workforce Data Pipeline
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-ETL-blue)
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![Pandas](https://img.shields.io/badge/pandas-Data%20Processing-lightgrey)
+![GitHub](https://img.shields.io/badge/GitHub-Version%20Control-black)
 
-This project simulates an operational workforce monitoring pipeline for agricultural operations using Python and Power BI-oriented datasets.
+An end-to-end workforce operations analytics project focused on attendance monitoring, workforce planning, operational risk detection, and harvest performance analysis.
 
-The objective is to automate the ingestion, validation, transformation, and reporting of workforce operational data across multiple production areas.
-
-The pipeline was designed to simulate real operational workflows commonly found in agro-industrial environments.
+This project simulates a real-world operational reporting workflow by combining Python-based ETL processing with Power BI dashboard visualization.
 
 ---
 
-# Technologies Used
+# Project Overview
+
+The pipeline processes operational workforce data through multiple stages:
+
+- Data generation
+- Data consolidation
+- Validation and anomaly detection
+- Final KPI dataset creation
+- Business intelligence visualization
+
+The final result is an executive-style operations dashboard designed for workforce monitoring and operational decision-making.
+
+---
+
+# Business Problem
+
+Operational teams require visibility into workforce attendance, labor gaps, harvest productivity, and operational risks in order to support planning and field execution.
+
+This project demonstrates how automated data pipelines and reporting workflows can improve operational visibility and decision-making.
+
+---
+
+# Tech Stack
 
 - Python
-- Pandas
-- VS Code
+- pandas
+- SQL concepts
+- Power BI
+- Power Query
 - Git & GitHub
-- CSV datasets
-- Power BI (next phase)
+- VS Code
 
 ---
 
-# Project Architecture
+# Project Structure
 
-```text
-Raw Operational Data
-        ↓
-Data Consolidation
-        ↓
-Operational Validation
-        ↓
-KPI Generation
-        ↓
-Anomaly Detection
-        ↓
-Final Dataset for BI
+```bash
+operational-workforce-data-pipeline/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── final/
+│
+├── scripts/
+│   ├── generate_sample_data.py
+│   ├── consolidate_workforce_data.py
+│   ├── validate_workforce_data.py
+│   └── build_final_dataset.py
+│
+├── dashboard/
+├── images/
+├── reports/
+└── README.md
 ```
 
 ---
 
-# Pipeline Components
+# Dashboard Preview
 
-## 1. Sample Data Generation
-Generates simulated operational workforce datasets for multiple agricultural areas.
+## Main Dashboard
 
-### Output
-```text
-data/raw/
-```
+![Dashboard](images/dashboard_main.png)
 
 ---
 
-## 2. Data Consolidation
-Combines multiple operational CSV files into a centralized dataset.
+## KPI Section
 
-### Script
-```text
-consolidate_workforce_data.py
-```
+![KPI Section](images/kpi_section.png)
 
 ---
 
-## 3. Operational Validation
-Detects:
-- attendance risks
-- workforce gaps
-- operational inconsistencies
+## Charts Section
 
-### Output
-```text
-validated_workforce_data.csv
-```
+![Charts Section](images/charts_section.png)
 
 ---
 
-## 4. KPI Generation
-Creates executive operational KPIs including:
-- attendance rate
-- workforce gap
-- projected vs actual workers
-- harvest metrics
+## Dynamic Tooltip
+
+![Tooltip](images/tooltip_detail.png)
 
 ---
 
-## 5. Anomaly Detection
-Automatically identifies operational anomalies such as:
-- low attendance
-- critical staffing gaps
-- low productivity scenarios
+# Key Features
+
+- Workforce attendance monitoring
+- Workforce gap analysis
+- Operational risk classification
+- Harvest productivity tracking
+- Dynamic tooltip drill-through insights
+- Multi-stage ETL workflow
+- Automated KPI generation
 
 ---
 
-## 6. Final Dataset Creation
-Builds a clean dataset optimized for Business Intelligence and dashboarding workflows.
+# Data Validation Rules
 
-### Final Output
-```text
-data/final/final_operational_dataset.csv
-```
+The validation process includes:
+
+- Attendance alert detection
+- Critical workforce gap identification
+- KPI consistency validation
+- Operational status classification
 
 ---
 
-# Example Operational Metrics
+# Power BI Dashboard
 
-- Attendance Rate
-- Workforce Gap
-- KG Harvested
-- KG per Worker
-- Operational Risk Status
+The dashboard includes:
+
+- KPI cards
+- Workforce trend analysis
+- Attendance monitoring
+- Operational risk distribution
+- Interactive slicers
+- Dynamic tooltips
+
+---
+
+# Key Technical & Business Learning Outcomes
+
+During the development of this project, multiple technical and operational concepts were applied in a business-oriented workflow environment.
+
+Key areas developed throughout the project include:
+
+- ETL pipeline structuring using Python and pandas
+- Multi-stage operational data processing
+- Data validation and anomaly detection workflows
+- KPI engineering for operational decision-making
+- Dashboard design focused on executive visibility
+- Interactive Power BI reporting and tooltip design
+- Git and GitHub workflow fundamentals
+- File structure organization for analytics projects
+- Troubleshooting regional settings and decimal parsing issues in Power BI
+- Business-oriented operational storytelling through data visualization
+
+This project was designed as a practical transition step toward Data Engineering, Analytics Engineering, and Automation-focused roles.
 
 ---
 
 # Future Improvements
 
-- Power BI dashboard integration
 - SQL database integration
-- Automated scheduling
+- Automated scheduled refresh
+- API ingestion
 - Cloud deployment
-- Email alert automation
-- API-based ingestion
+- Advanced pipeline orchestration
 
 ---
 
 # Author
 
-Andrea Meroussis Puglisevich
+Andrea Meroussis
 
 Automation & Data Operations Analyst  
 Building toward Data Engineering
-
-[LinkedIn](https://www.linkedin.com/in/andreameroussis/)
